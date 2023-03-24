@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style: none;
+    text-decoration:none;
+}
+/* body{
+    background-color:#E5E5E5;
+} */
+.dote{
+    color: #FF8A56;
+}
+
+#navbarNav a{
+    font-size: 18px;
+    color:#000;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar-nav a:hover{
+    border:1px solid #000;    
+}
+.download{
+    cursor:pointer;
+}
+.design{
+    color:#FF8A56;
+    font-size: 50px;
+    font-weight:bold;
+}
+.delight{
+    font-size: 50px;
+    font-weight:bold;
+}
+.trusted{
+    font-family:roboto;
+    font-size:25px;
+    font-weight:400;
+}
+.imglogo{
+    background-color:#fff !important;
+    z-index:3;
+    color:#fff;
+}
+.services{
+    font-size:30px;
+    color: #FF5E69;
+}
+.web{
+    width:250px;
+}
+.ulSymbol{
+    list-style-type: square;;
+}
+.ulSymbol li{
+    padding-bottom:5px
+}
+.project{
+    color:#B16CEA;
+}
+.myProject{
+    margin-bottom:-120px
+}
+.myProjectBottom{
+    padding:160px 20px 20px !important;
+    margin-bottom:100px;
+}
+.blog{
+    color:#FFA84B;
+}
+.april{
+    color: rgba(255, 255, 255, 0.7);
+}
+.product{
+    color:#FF5E69;
+}
+.productImgHeight{
+    height:500px
+}
+.productImgHeight2{
+    height:240px;
+}
+.product3Img{
+    margin-bottom:20px
+}
+.workIcon{
+    width:60px;
+}
+.testimonials{
+    color:#4353FF;
+}
+.streetRight{
+    width:320px;
+}
+.text-center p:nth-child(1){
+    color:#FF8A56 !important;
+}
+.faqWhat:hover{
+    cursor:pointer;
+}
+.fa-caret-down{
+    display:block;
+}
+.fa-caret-up{
+    display:none
+}
+/* .fa-caret-upToggle{
+    display:block;
+}
+.fa-caret-downToggle{
+    display:none;
+} */
+.faqP{
+    display:none;
+    transition: 0.9s all;
+}
+.faqShow{
+    display:block;
+}
+.moreBtn{
+    display: none;
+}
+.moreBtn button{
+    padding:10px 40px;
+    border:1px solid #fff;
+    text-decoration: none;
+    color:#000;
+    border-radius: 10px;   
+}
+.moreBtn button:hover{
+    background-color: #fff;
+    color: #000;
+
+
+}
+@media only screen and (max-width:1400){
+
+}
+@media only screen and (max-width:1200){
+    
+}
+@media only screen and (max-width:992){
+
+}
+@media only screen and (max-width:768px){
+    .myProjectBottomRow{
+        align-items: center !important;
+    }
+    .product3Img{
+        margin-right:0;
+        margin-bottom:0;
+
+    }
+    .productImgHeight{
+        width:80%;
+    }
+    .streetRight{
+        width:100%;
+    }
+    .footerRight{
+        display:none;
+    }
+    .moreBtn{
+        display: block;
+
+}
+@media only screen and (max-width:576){
+   
+}
